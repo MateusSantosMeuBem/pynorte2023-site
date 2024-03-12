@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.repository == 'PyNorte/pynorte2023-site'
+    if: github.repository == 'MateusSantosMeuBem/pynorte2023-site'
     environment:
       name: production
       url: ${{ steps.deployment.outputs.page_url }}
